@@ -1,18 +1,23 @@
 #include<stdio.h>
-
+/**
+ * main -prints the strings in the put function
+ *
+ * Description: using the main function
+ * Return: 0
+ */
 int main(void)
 {
 	char c;
 	int i;
-	long int li;
-	long long ll;
+	long li;
+	long long lli;
 	float f;
 	
-	printf( "the size of char is: %lu,\n", (unsigned long)sizeof(c));
-	printf( "the size of int is: %lu,\n", (unsigned long)sizeof(i));
-	printf( "the size of long int is: %lu,\n", (unsigned long)sizeof(li));
-	printf( "the size of long long is: %lu,\n", (unsigned long)sizeof(ll));
-	printf( "the size of float is: %lu,\n" (unsigned long)sizeof(f));
+	printf( "Size of char: %ld byte(s)\n", sizeof(c));
+	printf( "Size of int: %ld byte(s)\n", sizeof(i));
+	printf( "Size of long int: %ld byte(s)\n", sizeof(li));
+	printf( "Size of long long int: %ld byte(s)\n", sizeof(lli));
+	printf( "Size of float is: %ld byte(s)\n", sizeof(f));
 
 	return(0);
 }
