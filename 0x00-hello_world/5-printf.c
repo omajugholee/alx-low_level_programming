@@ -1,6 +1,9 @@
 #include<stdio.h>
-/**
- * a c program that print out the word below
+/*
+ * main - prints the string in the printf funtion
+ * Description: using the min function
+ * this program prints "with proper grammar, but the outcome is a piece of art"
+ * return: 0
  */
 int main(void)
 {
