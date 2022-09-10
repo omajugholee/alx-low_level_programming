@@ -3,24 +3,24 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
- * Returns always successfull
+ * Return: always return a 0
  */
-
 int main(void)
 {
+	int n;
 
-	int n; 
 	srand(time(0));
-	n= rand() - RAND_MAX / 2;
-
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else 
+	n = rand() - RAND_MAX / 2;
+	if (n <0)
+	{
 		printf("%d is negative\n", n);
+	} else if (n == 0)
+	{ 
+		printf("%d is zero\n", n);
+	}else
+	{
+		printf("%d is positive \n", n);
+	}
 	return (0);
-}
-
