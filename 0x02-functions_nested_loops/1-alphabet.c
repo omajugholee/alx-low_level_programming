@@ -1,16 +1,17 @@
 #include "main.h"
-/**
- * main - check the code
- * Destription - print the alphabelts in lowercase
- * Return: Always 0.
- */
-void main(void)
-{
-	char c;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+/**
+ * print_alphabet - prints alphabet
+ *
+ * Return: always 0;
+*/
+void print_alphabet(void)
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		_putchar(c);
+		_putchar(ch);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
