@@ -6,7 +6,7 @@
  * Destription - print the alphabelts in lowercase
  * Return: Always 0.
  */
-int main(void)
+void main(void)
 {
 	char c;
 
@@ -15,6 +15,4 @@ int main(void)
 		_putchar(c);
 	}
 	_putchar("\n");
-
-	return (0);
 }
