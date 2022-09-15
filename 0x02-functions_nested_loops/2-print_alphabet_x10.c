@@ -1,23 +1,21 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- * Description - print the alphabelts in lowercase
- * Return: Always 0.
+ * print_alphabet_x10 - prints alphabet 10 times
+ *
+ * Return: always 0;
+ *
  */
-void print_alphabelt_x10(void)
+void print_alphabet_x10(void)
 {
 	char c;
-	int i = 0;
+	char h;
 
-	while (i <= 9)
+	for (h = 0; h <= 9; h++)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
 		}
 		_putchar('\n');
-		i++;
 	}
 }
