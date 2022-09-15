@@ -1,3 +1,0 @@
-#!/bin/bash
-
-find ! -name READ.md -exec chmod +x {} \;

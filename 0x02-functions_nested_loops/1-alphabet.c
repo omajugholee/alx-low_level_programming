@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * main - check the code
  * Destription - print the alphabelts in lowercase
