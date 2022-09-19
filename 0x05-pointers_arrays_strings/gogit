@@ -1,0 +1,11 @@
+#!/bin/bash
+
+git add .
+
+read -p "Enter you  commit message: " cM
+
+git commit -m "$cM"
+
+git push
+
+
