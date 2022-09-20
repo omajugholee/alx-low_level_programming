@@ -1,10 +1,11 @@
 #include "main.h"
+#include <string.h>
 /**
- * int _strlen - return lenght of string.
+ * _strlen - return lenght of string.
  * @s: parameter to compare.
  * Return: void.
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	return (strlen(s));
 
